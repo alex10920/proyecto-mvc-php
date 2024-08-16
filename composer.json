@@ -1,0 +1,22 @@
+{
+    "name": "jeffj/proyecto-mvc-alexis",
+    "description": "proyecto-mvc",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jose Alberto Cruz Martinez"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
